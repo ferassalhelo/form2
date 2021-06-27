@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg nav-">
+      <button
+        class="navbar-toggler text-white"
+        style="width:120px"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon" style="width:100%">القائمة</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="ul- navbar-nav">
+          <li class="li-">
+            <a class="a-" href="#">طلب تركيب</a>
+          </li>
+          <li class="li-">
+            <a class="a-" href="#"> طلب صيانة</a>
+          </li>
+          <li class="li-">
+            <a class="a- active-" href="#">
+              طلب استثناء
+            </a>
+          </li>
+          <li class="li-">
+            <a class="a-" href="#"> طلب تدريب</a>
+          </li>
+          <li class="li-">
+            <a class="a-" href="#">طلب خدمة</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-">
+      <form action="" class="form- row">
+        <div class="con- col-lg-6 col-12 text-center">
+          <div class="toCar-">
+            <label class="lable-">الاسم:</label>
+            <input type="search" class="input-" placeholder="ادخل اسمك" />
+          </div>
+          <div class="toCar-">
+            <label class="lable-">رقم الهاتف:</label>
+            <input type="search" class="input-" placeholder="ادخل رقم هاتفك" />
+          </div>
+          <div class="toCar-">
+            <label class="lable-">العنوان:</label>
+            <input type="search" class="input- " placeholder="ادخل عنوانك" />
+          </div>
+          <div class="toCar-">
+            <label class="lable-" style="vertical-align: top; margin-top:12px;"
+              >مبرر الطلب:</label
+            >
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="ادخل مبرر طلبك"
+              class="input-"
+              style="resize:vertical; height:127px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="con- col-lg-6 col-12 text-center">
+          <div class="toCar-">
+            <label class="lable-"> رقم السيارة:</label>
+            <input type="search" class="input-" placeholder="ادخل الرقم" />
+          </div>
+          <button class="btn-">بحث</button>
+          <div class="toCar-">
+            <label class="lable-">الموديل:</label>
+            <input
+              type="text"
+              class="input-"
+              placeholder="سيظهر عند ادخال رقم السيارة"
+              readonly
+            />
+          </div>
+          <div class="toCar-">
+            <label class="lable-">النوع:</label>
+            <input
+              type="text"
+              class="input-"
+              placeholder="سيظهر عند ادخال رقم السيارة"
+              readonly
+            />
+          </div>
+          <div class="toCar-">
+            <label class="lable-">التصنيف:</label>
+            <input
+              type="text"
+              class="input-"
+              placeholder="سيظهر عند ادخال رقم السيارة"
+              readonly
+            />
+          </div>
+        </div>
+        <button class="btn2-">حفظ الطلب</button>
+      </form>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
